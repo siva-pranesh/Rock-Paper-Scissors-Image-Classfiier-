@@ -7,7 +7,7 @@ saved_model_path = 'C:/Users/91909/Documents/My_Projects/Machine_Learning_&_AI/d
 model = keras.models.load_model(saved_model_path)
 
 # Read the image
-image_path = 'C:/Users/91909/Desktop/test9.jfif'
+image_path = 'C:/Users/91909/Desktop/test.jpg'
 input_image = image.load_img(image_path,
                             target_size=(64,64))
 # Displaying the image
@@ -26,6 +26,6 @@ class_dict = {'paper': 0, 'rock': 1, 'scissors': 2}
 key_list = list(class_dict.keys())
 val_list = list(class_dict.values())
 position = val_list.index(result.argmax())
-print('^'*25)
+print('^'*20)
 print('This is', key_list[position])
-print('^'*25)
+print('^'*20)
