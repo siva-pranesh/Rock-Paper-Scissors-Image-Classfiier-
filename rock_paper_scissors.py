@@ -129,7 +129,11 @@ tuner.search(training_set,
              validation_data=(validation_set),
              epochs=10, batch_size=32)
 
+
 #-------------------------------------------------------------------------------------------
+## Best Model from Hyperparameter tuning
+#-------------------------------------------------------------------------------------------
+
 best_model = tuner.get_best_models()[0]
 best_model.evaluate(training_set)
 # Best Trial summary
@@ -140,14 +144,15 @@ best_model.evaluate(training_set)
 # Best_Model_Training_Accuracy: 0.97
 # Best_Model_Validation_Accuracy: 0.98
 # Best_Model_Testing_Accuracy: 0.96
-#-------------------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------------------
 ## Saving the best model
 #-------------------------------------------------------------------------------------------
 
+# Models can be saved in .pkl, .sav or .h5 format 
 # create a HDF5 file 'rock_paper_scissors.h5'
 classifier.save('rock_paper_scissors_96.h5')
 
 # training_set.class_indices
 # {'paper': 0, 'rock': 1, 'scissors': 2}
+
