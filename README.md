@@ -1,9 +1,9 @@
-### Project Name   : Rock Paper Scisssiors
-### Project Type   : Deep Learning
-### Project Date   : 23-08-2021
-### Project Author : sivapranesh.contact@gmail.com
+## Project Name   : Rock Paper Scisssiors
+## Project Type   : Deep Learning
+## Project Date   : 23-08-2021
+## Project Author : sivapranesh.contact@gmail.com
 
-### Reference links:
+## Reference links:
 1. Tensorflow dataset ----[Tensorflow](https://www.tensorflow.org/datasets)
 2. Tensorflow dataset ----[Tensorflow](https://www.tensorflow.org/datasets/catalog/overview)
 3. Youtube reference  ----[Youtube](https://www.youtube.com/watch?v=44U8jJxaNp8)
