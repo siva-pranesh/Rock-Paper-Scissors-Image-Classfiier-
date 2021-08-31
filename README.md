@@ -10,3 +10,4 @@
 5. Keras Tuner Issue  ----[Stackoverflow](https://stackoverflow.com/questions/62258704/what-does-infotensorfloworacle-triggered-exit-mean-with-keras-tuner)
 6. Keras Tuner Issue  ----[Stackoverflow](https://stackoverflow.com/questions/64403019/colab-kerastuner-infotensorflowreloading-oracle-from-existing-project-untitl)
 7. Tensorflow optimizers ----[Tensorflow](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam)
+8. Youtube reference  ----[Youtube](https://www.youtube.com/watch?v=ksCYBZIGShI)
